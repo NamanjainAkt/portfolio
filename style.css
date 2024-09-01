@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla",sans-serif;
+    overflow: hidden;
+}
+body{
+    color:white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/pexels-pixabay-90764.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 25px 0;
+}
+.logo span{
+    color: #f9004d;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px ;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #f9004d;
+}
+.login{
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.login:hover,.register:hover{
+    color: #f9004d;
+}
+.register{
+    color: white;
+    text-decoration: none;
+    background: #000;
+    padding: 9px 25px ;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.content{
+    width: 40vw;
+    margin: 150px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content span{
+    color: #f9004d;
+    font-size: 40px;
+}
+.content h3{
+    line-height: 70px;
+    text-transform: uppercase;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top:2px solid #f9004d;
+    background-color: #000001;
+    bottom: 0;
+    left: 0;
+}
+footer .quote{
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+footer ul{
+    display: flex;
+    margin: 15px;
+}
+
+footer ul li a{
+    margin-right: 25px;
+    font-size: 25px;
+}
